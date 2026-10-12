@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tugas Pertemuan 10 - IFRAME</title>
+</head>
+<body>
+        <li>
+            <b>Apa gunanya IFRAME?</b><br>
+            <b>Jawaban:</b><br>
+            IFRAME (<i>Inline Frame</i>) berguna untuk menyematkan (<i>embed</i>) dokumen HTML lain, halaman web eksternal, maupun media interaktif (seperti video atau peta) langsung di dalam halaman web yang sedang aktif tanpa harus memuat ulang seluruh halaman.
+        </li>
+        <br>
+        <li>
+            <b>Apa bedanya FRAME dan IFRAME?</b><br>
+            <b>Jawaban:</b>
+            <ul>
+                <li><b>FRAME (<code>&lt;frameset&gt;</code>):</b> Digunakan untuk membagi seluruh layar browser menjadi beberapa bagian terpisah dan kedudukannya menggantikan tag <code>&lt;body&gt;</code>.</li>
+                <li><b>IFRAME (<code>&lt;iframe&gt;</code>):</b> Merupakan <i>inline frame</i> yang ditempatkan di <b>dalam</b> tag <code>&lt;body&gt;</code> bersanding dengan elemen HTML lain (seperti teks atau gambar), serta ukurannya dapat diatur secara bebas.</li>
+            </ul>
+        </li>
+        <br>
+        <li>
+            <b>Tuliskan bentuk umum perintah IFRAME secara lengkap?</b><br>
+            <b>Jawaban:</b><br>
+            <pre>
+&lt;iframe src="URL" name="nama_frame" width="lebar" height="tinggi" frameborder="1|0" scrolling="yes|no|auto"&gt;
+    &lt;p&gt;Teks ini tampil jika browser tidak mendukung IFRAME.&lt;/p&gt;
+&lt;/iframe&gt;
+            </pre>
+        </li>
+        <li>
+            <b>Berikan contoh dalam bentuk tampilan website penggunaan IFRAME?</b><br>
+            <b>Jawaban:</b><br>
+            Berikut adalah contoh penyematan website eksternal langsung menggunakan tag <code>&lt;iframe&gt;</code>:<br><br>
+            
+            <iframe src="https://github.com/H45T4CK" width="100%" height="400px" frameborder="1">
+                <p>Browser Anda tidak mendukung IFRAME.</p>
+            </iframe>
+        </li>
+    </ol>
+
+</body>
+</html>
